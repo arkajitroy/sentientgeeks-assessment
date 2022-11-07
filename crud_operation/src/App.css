@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+
+/* GLOBAL/REUSABLE */
+
+.App {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 1024px !important;
+}
+
+/* TITLE-SECTION */
+.title-container {
+  margin-top: 2rem;
+}
+
+.title-container h1 {
+  font-weight: 600;
+  font-size: 2.7rem;
+  color: #344d8d;
+}
+
+/* FORM SECTION */
+.form-container {
+  margin: 0 auto 0 auto;
+  width: 60%;
+}
+
+/* TABLE SECTION */
+#datasheet-container {
+  margin: 2rem auto 0 auto;
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+}
+
+.table-container {
+  margin-bottom: 1rem;
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 1rem auto 0;
+  background-color: #273a6a !important;
+  color: white;
+  border-radius: 1rem;
+}
+
+.tableName {
+  font-size: 2rem;
+}
+
+th {
+  background-color: #344d8d !important;
+  color: white;
+}
